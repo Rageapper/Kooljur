@@ -1,0 +1,16 @@
+{
+  "name": "fcm-token-server",
+  "version": "1.0.0",
+  "description": "Serverless function for automatic FCM token refresh",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}

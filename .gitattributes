@@ -1,0 +1,19 @@
+# Защита от случайного коммита конфиденциальных файлов
+# Эти файлы помечены как сгенерированные, чтобы Git предупреждал при попытке коммита
+
+# Файлы с личными путями (автоматически генерируются)
+android/local.properties linguist-generated=true
+ios/Flutter/flutter_export_environment.sh linguist-generated=true
+ios/Flutter/Generated.xcconfig linguist-generated=true
+
+# Конфиденциальные конфигурационные файлы
+lib/core/config/firebase_config_local.dart linguist-generated=true
+**/firebase_config_local.dart linguist-generated=true
+service-account-key.json linguist-generated=true
+*.key linguist-generated=true
+
+# Исключение из статистики кода
+*.iml linguist-generated=true
+build/ linguist-generated=true
+.dart_tool/ linguist-generated=true
+node_modules/ linguist-generated=true
